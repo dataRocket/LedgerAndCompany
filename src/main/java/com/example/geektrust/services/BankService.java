@@ -8,6 +8,6 @@ public interface BankService {
     String loan(String bank, String user, Double amount, Integer numOfYear, Double interestRate);
     String payment(String bank, String user, Double amount, Integer emiNum);
 
-    public String balance(Bank bank, User user, Integer emiNum);
+    public String balance(String bank, String user, Integer emiNum);
 
 }

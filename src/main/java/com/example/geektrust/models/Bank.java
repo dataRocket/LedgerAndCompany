@@ -20,7 +20,7 @@ public class Bank {
         return true;
     }
 
-    public LoanEntity getLoanFromUser(String user) {
+    public LoanEntity getLoanFromUser(User user) {
         return ledger.get(user);
     }
 }
